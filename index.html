@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#123A5A">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<title>海缸照顾</title>
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="timerBar" class="timer-bar" hidden></div>
+<main id="app"></main>
+<div id="alarm" class="alarm" hidden>
+  <div class="alarm-box">
+    <div class="alarm-title">10 分钟到了！</div>
+    <div class="alarm-text">看水泵、造浪泵转起来没有。<br><b>马上把蛋分的开关打开！</b></div>
+    <button class="btn big red" id="alarmOk">蛋分已经打开了</button>
+  </div>
+</div>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
